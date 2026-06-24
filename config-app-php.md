@@ -5,14 +5,14 @@
 
 ### Configurer la VM
 ```ip a```
-192.168.1.30
+192.168.X.X
 
 Il se peut que l'ip ne commence pas par 192 mais par 10. Notre objectif est que l'ip de notre vm soit identique à celle de de notre machine hôte. Pour cela nous allons utiliser l'accès par pont dans les configuration réseau de la vm. Dans ce cas il faut aller dans 
     `> VirtualBox > Click sur ta vm > Configuration > Réseau > Accès par pont > Choisir la Wifi`
 
 
 Pour se connecter a sa vm depuis sa machine hôte il suffit de faire :
-    `ssh user@192.168.1.30`
+    `ssh user@192.168.X.X`
 
 
 ### Installer les dépendances 
